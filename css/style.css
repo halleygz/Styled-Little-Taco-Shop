@@ -1,0 +1,228 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(169deg, rgba(255, 139, 255, 1) 0%, rgba(6, 66, 73, 1) 99%);
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.active {
+    color: aqua;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffe66d;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+table caption {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* style for hours */
+details {
+    background-color: #ffecd2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details summary:hover {
+    color: #ff6b6b;
+}
+
+/* Styling for the 'About' section */
+#about {
+    background-color: #fff0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for 'Taco Trivia' aside */
+aside {
+    background-color: #ffe5e5;
+    padding: 15px;
+    border-left: 5px solid #ff6b6b;
+    margin-top: 20px;
+}
+
+/* Style the form elements */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px solid #ff6b6b;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55e5e;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+button[type="reset"]:hover {
+    background-color: #bbb;
+}
+
+/* Style the address section */
+address {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+address a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
